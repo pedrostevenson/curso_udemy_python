@@ -35,7 +35,7 @@ Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 #     elif boa_noite:
 #         print('Boa noite')
 #     else:
-#         print('ERROR')
+#         print('Não conheço essa hora')
 # else:
 #     print('Valor inválido.')
 """
