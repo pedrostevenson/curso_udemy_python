@@ -10,3 +10,5 @@ frases_unidas = ', '.join(lista_frases)
 print(lista_frases)
 print(frases_unidas)
 print(lista_frases_cruas)
+
+
