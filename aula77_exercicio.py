@@ -18,14 +18,14 @@ perguntas = [
 
 acertos = 0
 
-for i, j in enumerate(perguntas):
+for i, pergunta in enumerate(perguntas):
     print('Pergunta:', perguntas[i]['Pergunta'])
     
-    for k, opcao in enumerate(perguntas[i]['Opções']):
-        print(f'{k})', opcao)
+    for j, opcao in enumerate(perguntas[i]['Opções']):
+        print(f'{j})', opcao)
     
         if opcao == perguntas[i]['Resposta']:
-            opcao_correta = str(k)
+            opcao_correta = str(j)
             resposta_pergunta = perguntas[i]['Resposta']
     
     opcao_escolhida = input('Escolha uma opção: ')
