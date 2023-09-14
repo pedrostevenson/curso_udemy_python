@@ -1,0 +1,12 @@
+[
+    {"name": "Pedro", "lastName": "Stevenson"},
+    {"name": "Maria", "lastName": "Moreira"},
+    {"name": "Helena", "lastName": "Pereira"},
+    {
+        "addresses": [
+        {"street": "Av. Panorâmica", "number": 6},
+        {"street": "R. Profª. Francisca Romana", "number": 141}
+]
+}
+
+]
